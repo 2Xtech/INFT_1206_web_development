@@ -84,6 +84,6 @@ p, li {
   word-spacing: 2px;
 }
 
-section {
+section h2+p{
   text-indent: 20px;
 }
