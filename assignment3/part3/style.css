@@ -51,6 +51,7 @@ html {
 h1, h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
 h1{
@@ -75,4 +76,14 @@ h2{
   font-weight: 400;
   font-style: normal;
   src: url('fonts\Gideon_Roman\GideonRoman-Regular.ttf') format('truetype');
+}
+
+p, li {
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+
+section {
+  text-indent: 20px;
 }
