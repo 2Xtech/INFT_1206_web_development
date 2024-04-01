@@ -62,7 +62,7 @@ class Ball {
     this.x += this.velX;
     this.y += this.velY;
     }
-    
+
     collisionDetect() {
         for (const ball of balls) {
           if (this !== ball) {
@@ -103,6 +103,7 @@ function loop() {
     for (const ball of balls) {
       ball.draw();
       ball.update();
+      ball.collisionDetect();
     }
   
     requestAnimationFrame(loop);
