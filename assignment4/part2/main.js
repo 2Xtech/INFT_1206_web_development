@@ -20,9 +20,15 @@ const alttext = ['closeup of eye','fossil/stone','orchids','painting egyptian','
 
 /* Looping through images */
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+for (const image of images) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', `images/${image}`);
+    newImage.setAttribute('alt', alts[image]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', imageclick => {
+      displayedImage.src = imageclick.target.src;
+      displayedImage.alt = imageclick.target.alt;
+    });
+  }
 
 /* Wiring up the Darken/Lighten button */
