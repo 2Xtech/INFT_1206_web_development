@@ -1,3 +1,10 @@
+/*
+NAME: Subeet Singh 
+FILENAME: main.js
+LAST UPDATE DATE: April 1st 2024
+
+DESCRIPTION: Web development-Assignment 4-Part 3
+*/
 // setup canvas
 
 const canvas = document.querySelector("canvas");
