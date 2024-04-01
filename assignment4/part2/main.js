@@ -1,3 +1,10 @@
+/*
+NAME: Subeet Singh 
+FILENAME: main.js
+LAST UPDATE DATE: April 1st 2024
+
+DESCRIPTION: Web development-Assignment 4-Part 2
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
