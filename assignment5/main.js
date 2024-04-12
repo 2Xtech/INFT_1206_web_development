@@ -1,3 +1,10 @@
+/*
+Name: Subeet Singh
+Course: INFT 1106
+Assignment: assignment 5
+Filename: main.js
+
+*/
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
